@@ -22,26 +22,11 @@ namespace arrays_homework_4
 
             #endregion
             #region Task2
-            int[] numbers = { 1, 10, 30, 29, 40 };
-            int count = 0;
+            //int[] numbers = { 1, 10, 30, 29, 40 };
+            //int a = numbers.Max();
+            //Console.WriteLine(a);
 
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                for (int j = 0; j < numbers.Length - 1; j++)
-                {
-                    if (numbers[i] > numbers[j+1])
-                    {
-                        count += numbers[i];
-                    }
-                    else
-                    {
-                        count += 0;
-                    }
 
-                }
-
-            }
-            Console.WriteLine(count);
 
 
             #endregion
@@ -100,6 +85,7 @@ namespace arrays_homework_4
             //    {
             //        break;
             //    }
+
             //    count++;
 
             //}
